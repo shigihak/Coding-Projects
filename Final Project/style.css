@@ -322,7 +322,7 @@ header .row {
     align-items: center;
 }
 
-.header__email--input {
+.header__email--input-field {
     width: 100%;
     border-radius: 500px;
     border: 2px solid rgb(229, 231, 235);
@@ -334,7 +334,7 @@ header .row {
     top: 0;
     bottom: 0;
     z-index: 1;
-    transition: border-color 300ms;
+    transition: all 300ms;
 }
 
 .header__email--input::placeholder {
@@ -353,7 +353,7 @@ header .row {
     border-color: rgba(100,21,255);
 }
 
-.header__email--btn {
+.header__email--input-btn {
     z-index: 2;
     margin: 8px;
     height: calc(100% - 16px);
